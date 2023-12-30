@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Início](README.md)
+
 ## ⚙ Sistemas
 
-* [Reset de Conta](README.md)
+* [Reset de Conta](<README (1).md>)
 * [Respawn dos Chefes de Andar](sistemas/respawn-dos-chefes-de-andar.md)
 
 ## 🎉 Eventos

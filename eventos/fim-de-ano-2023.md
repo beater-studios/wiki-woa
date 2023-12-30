@@ -2,8 +2,8 @@
 description: >-
   Evento especial com bônus de XP e moedas, além de oportunidades diárias de
   enfrentar chefes de andar.
-cover: ../.gitbook/assets/image.png
-coverY: 246.80332829046898
+cover: ../.gitbook/assets/event-fim-de-ano-2023.png
+coverY: 256.9712556732224
 layout:
   cover:
     visible: true
@@ -55,4 +55,4 @@ layout:
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>© 2023 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/event-fim-de-ano-2023.png" alt=""><figcaption><p>© 2023 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>
