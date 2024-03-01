@@ -3,6 +3,8 @@ description: >-
   A Guild dos Caçadores reporta aumento de hostilidade nos monstros, alertando
   todos aventureiros. A Guilda oferece 25x Poções de HP Grande para segurança em
   batalha.
+cover: ../../.gitbook/assets/hostilidade-dos-monstros.png
+coverY: 0
 ---
 
 # Hostilidade dos Monstros
