@@ -8,7 +8,7 @@ coverY: 0
 
 <details>
 
-<summary>Alerta da Guilda dos Aventureiros </summary>
+<summary>Anúncio da Guilda dos Aventureiros </summary>
 
 Ouvintes da lenda e guardiões do reino,
 
