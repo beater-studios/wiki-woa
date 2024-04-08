@@ -23,7 +23,7 @@ description: Informações sobre o reset de conta e suas mudanças e recompensas
 * **Moedas e Bônus: j**ogador retorna com suas moedas acumuladas e recebe um bônus de +10.000 moedas;
 * **Bônus de Aventuras Diárias**: adicionados +5 minutos extras;
 * **Equipamentos**: todos itens equipados são desequipados, mas permanecem no inventário;
-* **Cash e Bônus**: cash atual mantido e adicionado um bônus de +50;
+* **wCoin e Bônus**: wCoin atual mantido e adicionado um bônus de +50;
 * **Skills e Pontos**: todas as habilidades retornam para o nível 0. Pontos utilizados são resetados, exceto os ganhos em eventos, com um bônus adicional de +3 pontos.
 
 
