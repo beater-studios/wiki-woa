@@ -3,4 +3,4 @@
 **Correções:**
 
 * botão de upar atributos não estava funcionando (tks: @PowTron);
-* loja de cash não estava abrindo mesmo logado.
+* loja de wCoin não estava abrindo mesmo logado.
