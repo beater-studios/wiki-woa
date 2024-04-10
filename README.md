@@ -1,3 +1,7 @@
 # Início
 
-Aqui você encontrará guias detalhados sobre cada sistema integrado, permitindo-lhe aprimorar suas estratégias e compreender profundamente o funcionamento do mundo do jogo.
+Aqui, você pode acompanhar as mudanças oficiais e melhorias introduzidas em cada versão.
+
+
+
+Há também outras mudanças internas aplicadas que não podemos divulgar para os jogadores, mas visam sempre trazer a melhor experiência e qualidade de jogo!
