@@ -2,10 +2,17 @@
 
 * [Início](README.md)
 
-## 👤 Geral
+## 🌐 Geral
 
-* [Hostilidade dos Monstros](geral/hostilidade-dos-monstros.md)
-* [Reset de Conta](geral/reset-de-conta.md)
 * [Respawn dos Chefes de Andar](geral/respawn-dos-chefes-de-andar.md)
-* [Desarme](geral/desarme.md)
 * [wCoin: Moeda Especial](geral/wcoin-moeda-especial.md)
+
+## ⚔️ Combate
+
+* [Desarme](combate/desarme.md)
+* [Hostilidade dos Monstros](combate/hostilidade-dos-monstros.md)
+
+## ↗️ Progressão
+
+* [Itens de Regeneração](progressao/itens-de-regeneracao.md)
+* [Reset de Conta](progressao/reset-de-conta.md)
