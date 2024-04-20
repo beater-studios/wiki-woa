@@ -2,19 +2,32 @@
 
 * [Início](README.md)
 
-## 🌐 Geral
+## 2024
 
-* [Respawn dos Chefes de Andar](geral/respawn-dos-chefes-de-andar.md)
-* [Modo Aventura](geral/modo-aventura.md)
-* [wCoin: Moeda Especial](geral/wcoin-moeda-especial.md)
-* [Manutenções Programadas](geral/manutencoes-programadas.md)
+* [20/04 | 1.5.1](2024/20-04-or-1.5.1/README.md)
+  * [1.5.2](2024/20-04-or-1.5.1/1.5.2.md)
+* [08/04 | 1.5](2024/08-04-or-1.5.md)
+* [30/03 | 1.4.2](2024/30-03-or-1.4.2.md)
+* [24/02 | 1.4](2024/24-02-or-1.4/README.md)
+  * [1.4.1](2024/24-02-or-1.4/1.4.1.md)
+* [06/01 | 1.3](2024/06-01-or-1.3.md)
 
-## ⚔️ Combate
+## 2023
 
-* [Desarme](combate/desarme.md)
-* [Hostilidade dos Monstros](combate/hostilidade-dos-monstros.md)
-
-## ↗️ Progressão
-
-* [Itens de Regeneração](progressao/itens-de-regeneracao.md)
-* [Reset de Conta](progressao/reset-de-conta.md)
+* [28/12 | 1.2](2023/28-12-or-1.2/README.md)
+  * [Celebração da Guilda dos Aventureiros!](2023/28-12-or-1.2/celebracao-da-guilda-dos-aventureiros.md)
+* [27/12 | 1.1](2023/27-12-or-1.1.md)
+* [26/12 | 1.0](2023/26-12-or-1.0.md)
+* [10/12 | 0.9](2023/10-12-or-0.9.md)
+* [13/11 | 0.8](2023/13-11-or-0.8.md)
+* [12/11 | 0.7](2023/12-11-or-0.7/README.md)
+  * [Hostilidade dos Monstros](2023/12-11-or-0.7/hostilidade-dos-monstros.md)
+* [09/11 | 0.6](2023/09-11-or-0.6.md)
+* [29/10 | 0.5](2023/29-10-or-0.5.md)
+* [28/10| 0.4](2023/28-10-or-0.4.md)
+* [26/10 | 0.3](2023/26-10-or-0.3.md)
+* [25/10 | 0.2](2023/25-10-or-0.2.md)
+* [24/10 | 0.1.3](2023/24-10-or-0.1.3.md)
+* [22/10 | 0.1.2](2023/22-10-or-0.1.2.md)
+* [21/10 | 0.1.1](2023/21-10-or-0.1.1.md)
+* [20/10 | 0.1](2023/20-10-or-0.1.md)
