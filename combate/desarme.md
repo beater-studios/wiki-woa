@@ -19,9 +19,10 @@ A chance de desarme é calculada com base em uma escala de até 100 pontos, onde
 
 * **Vida do Inimigo:** Quanto mais cheia a barra de vida do inimigo, maior é o aumento na chance de desarme, adicionando até +7 ao peso total.
 * **Hostilidade do Inimigo:**
-  * Agressivo: +12,5 ao peso de desarme.
-  * Feroz: +25 ao peso de desarme.
-  * Bosses: Independente da hostilidade, +50 ao peso de desarme.
+  * Agressivo: +12 ao peso de desarme.
+  * Feroz: +22,5 ao peso de desarme.
+  * Passivos: +1 ao peso de desarme.&#x20;
+  * Bosses: Independente da hostilidade, +40 ao peso de desarme.
 * **Nível do Jogador:**
   * Pode reduzir até metade do peso total de desarme calculado até o momento.
 * **Atributos do Jogador:**
