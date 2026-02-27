@@ -1,35 +1,35 @@
 ---
 description: >-
-  Entenda os níveis de hostilidade dos monstros: Passivo, Agressivo e Feroz, e
+  Entenda os tipos de natureza dos monstros: Passivo, Selvagem e Agressivo, e
   como eles influenciam o combate e as chances de desarme.
 ---
 
-# Hostilidade dos Monstros
+# Natureza dos Monstros
 
-Cada monstro apresenta um dos três tipos de comportamento hostil, o que afeta diretamente o desenvolvimento do duelo e as chances de ocorrência de eventos de combate, como desarmes.
+Cada monstro apresenta um dos três tipos de natureza, o que afeta diretamente o desenvolvimento do duelo e as chances de ocorrência de eventos de combate, como desarmes.
 
 
 
-### Tipos de Hostilidade
+### Tipos de Natureza
 
 #### Passivo
 
 Monstros **passivos** iniciam o combate atacando de volta somente quando você o ataca.
 
+#### Selvagem
+
+Monstros com uma natureza **selvagem** têm uma probabilidade de 50% de lançar o primeiro golpe. Se um monstro selvagem ataca primeiro, seu personagem terá a oportunidade de executar um contra-ataque automaticamente logo após.
+
 #### Agressivo
 
-Monstros com uma natureza **agressiva** têm uma probabilidade de 50% de lançar o primeiro golpe. Se um monstro agressivo ataca primeiro, seu personagem terá a oportunidade de executar um contra-ataque automaticamente logo após.
-
-#### Feroz
-
-Os monstros **ferozes** são os mais perigosos, pois sempre realizam um ataque inicial no início do duelo. Diferentemente dos agressivos, você não terá a chance de contra-atacar após o ataque inicial dele.
+Os monstros **agressivos** são os mais perigosos, pois sempre realizam um ataque inicial no início do duelo. Diferentemente dos selvagens, você não terá a chance de contra-atacar após o ataque inicial dele.
 
 
 
 ### Implicações no Sistema de Desarme
 
-A agressividade e ferocidade dos monstros não só aumentam a dificuldade do combate, mas também influenciam diretamente no sistema de desarme. Quanto maior a hostilidade, maiores são as chances de desarme durante o combate.
+A natureza selvagem e agressiva dos monstros não só aumenta a dificuldade do combate, mas também influencia diretamente no sistema de desarme. Quanto maior a agressividade, maiores são as chances de desarme durante o combate.
 
-Para obter detalhes aprofundados sobre como a hostilidade afeta o desarme, visite nossa página dedicada ao sistema de desarme: [Sistema de Desarme](https://wiki.swordartonline.com.br/geral/desarme).
+Para obter detalhes aprofundados sobre como a natureza afeta o desarme, visite nossa página dedicada ao sistema de desarme: [Sistema de Desarme](https://wiki.swordartonline.com.br/combate/desarme).
 
 \
