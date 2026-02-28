@@ -2,8 +2,6 @@
 description: >-
   Manutenções programadas são períodos vitais onde o jogo fica temporariamente
   inacessível para aplicação de atualizações e melhorias significativas.
-cover: ../.gitbook/assets/manutenca-programada.jpeg
-coverY: 75.33780160857908
 ---
 
 # Manutenções Programadas
@@ -38,4 +36,4 @@ Entendemos que as manutenções podem ser inconvenientes, mas garantimos que ela
 
 
 
-<figure><img src="../.gitbook/assets/manutenca-programada.jpeg" alt=""><figcaption><p>© 2024 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>
+<figure><img src="../../assets/manutenca-programada.jpeg" alt=""><figcaption><p>© 2024 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>

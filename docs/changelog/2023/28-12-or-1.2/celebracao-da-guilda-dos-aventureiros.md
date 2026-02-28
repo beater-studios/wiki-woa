@@ -2,8 +2,6 @@
 description: >-
   Lançamento da Alvorada do Caminho, adaga de início de jornada, com Bônus de
   100% em Moedas e 150% em XP em aventuras, caçadas e missões.
-cover: ../../.gitbook/assets/celebração-da-guilda-dos-aventureiros.jpg
-coverY: 173.78920827029754
 ---
 
 # Celebração da Guilda dos Aventureiros!
@@ -18,4 +16,4 @@ coverY: 173.78920827029754
 >
 > Agarre sua adaga, colete seus bônus e prepare-se para escrever o seu próprio épico nas páginas da história da Guilda dos Aventureiros!
 
-<figure><img src="../../.gitbook/assets/celebração-da-guilda-dos-aventureiros.jpg" alt=""><figcaption><p>© 2023 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>
+<figure><img src="../../../../assets/celebração-da-guilda-dos-aventureiros.jpg" alt=""><figcaption><p>© 2023 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>

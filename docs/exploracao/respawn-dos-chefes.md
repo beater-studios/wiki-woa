@@ -1,7 +1,5 @@
 ---
 description: Detalhes dos horários regulares e informação sobre alterações durante eventos.
-cover: ../.gitbook/assets/respawn-dos-chefes-de-andar.png
-coverY: 0
 ---
 
 # Respawn dos Chefes de Andar
@@ -42,4 +40,4 @@ Ergam-se, bravos aventureiros, pois a hora de conquistar é agora!
 
 
 
-<figure><img src="../.gitbook/assets/respawn-dos-chefes-de-andar.png" alt=""><figcaption><p>© 2024 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>
+<figure><img src="../../assets/respawn-dos-chefes-de-andar.png" alt=""><figcaption><p>© 2024 Beater Studios. Todos os direitos reservados.</p></figcaption></figure>
