@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-wiki
+  cancel-in-progress: true
 
 permissions:
   contents: write
