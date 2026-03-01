@@ -1,29 +1,35 @@
 ---
 description: >-
-  Itens de regeneração recuperam a saúde do seu personagem, usáveis em combate
-  ou via inventário. A cura é calculada a partir do valor base do item, com o
-  Vigor e pela habilidade "Cura Potencializada".
+  Como funcionam os itens de regeneração: onde usar, como a cura é calculada
+  e quais bônus influenciam o valor final.
 ---
 
 # Itens de Regeneração
 
-Estes itens são essenciais para manter seu personagem saudável e pronto para enfrentar os inúmeros desafios que nosso mundo tem a oferecer.
+Itens de regeneração recuperam vida do seu personagem. Podem ser usados de duas formas:
 
-### Como Usar Itens de Regeneração
+- **Em combate**: aparecem na lista de ações do turno. Após usar, o inimigo contra-ataca.
+- **Fora de combate**: pelo inventário, na seção de regeneração.
 
-Itens de regeneração podem ser usados durante ou fora do combate. Durante o combate eles aparecem na lista de ações para batalha e fora para usar abra seu inventário, selecione o item desejado na seção "Regenação" e clique em "UTILIZAR ITEM".&#x20;
+---
 
-### Taxa de Cura
+## Cálculo da Cura
 
-A taxa de cura dos itens de regeneração tem um valor base atribuído a ele e complementado com o Vigor do personagem e a habilidade passiva de regeneração (Cura Potencializada).
+O valor final de cura segue três etapas:
 
-#### Etapas do aumento da taxa:
+1. **Valor base** do item (ex: Poção HP Grande = 750).
+2. **Bônus de Vigor**: aumenta o valor base proporcionalmente ao seu Vigor. Com Vigor 50, o bônus é +50%.
+3. **Bônus de Regeneração Aprimorada**: a habilidade passiva adiciona **+5% por nível** sobre o valor já bonificado pelo Vigor.
 
-1. **Valor Base:** O ponto inicial do cálculo de cura é o valor base do item de regeneração utilizado.
-2. **Bônus de Vigor:** Ao valor base, adicionamos um bônus que depende do vigor do personagem.
-3. **Bônus de Cura Potencializada:** Se o personagem possui a passiva "Cura Potencializada", um bônus adicional é aplicado com base no nível dessa habilidade.
-4. **Aplicação da Cura:** A vida atual do personagem é então aumentada pelo valor total de cura calculado nas etapas anteriores. Se o valor total de cura exceder a vida máxima do personagem, a vida é simplesmente ajustada para seu máximo.
+> Exemplo: Poção HP Grande (750) com Vigor 50 e Regeneração Aprimorada nível 10:
+>
+> - Após Vigor: 750 + 375 = 1.125
+> - Após habilidade (+50%): 1.125 + 563 = **1.688 HP**
 
+A cura nunca ultrapassa a vida máxima do personagem.
 
+---
 
-Use-os sabiamente para garantir que seu personagem esteja sempre pronto para o próximo desafio!
+## Regeneração Passiva
+
+Na Taverna, seu personagem regenera vida automaticamente a cada 10 segundos, sem gastar itens. O Vigor também aumenta essa regeneração passiva.

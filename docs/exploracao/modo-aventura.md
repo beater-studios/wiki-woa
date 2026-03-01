@@ -1,30 +1,46 @@
 ---
 description: >-
-  A Aventura permite que aventureiros coletem recompensas em estado de
-  inatividade, progredindo no jogo mesmo offline. O resultado de cada aventura é
-  determinado por um dado, com possíveis cenários.
+  Como funciona o Modo Aventura: tempo, resultados possíveis, recompensas
+  e a mecânica de resgate pela Caravana.
 ---
 
 # Modo Aventura
 
-#### **Introdução ao Modo Aventura**
+O Modo Aventura permite enviar seu personagem em exploração automática. Durante a aventura, você não pode batalhar. Ao final, um resultado é sorteado e uma história é narrada.
 
-A Aventura permite que os jogadores coloquem seus personagens em exploração automática, ou "idle", onde podem conseguir recompensas mesmo quando estão offline. Este modo é ideal para jogadores que desejam continuar progredindo no jogo mesmo durante períodos de inatividade.
+---
 
-#### **Como Funciona**
+## Tempo
 
-Ao ativar o Modo Aventura, o personagem entra em um estado de exploração automática que dura incrementos de 5 minutos. Ao término, o resultado é determinado por um lançamento de dados.
+- O tempo é definido em **incrementos de 5 minutos** (mínimo 5 min).
+- Você tem **70 minutos por dia** de aventura (resetado diariamente).
+- Quanto mais tempo na aventura, maiores as recompensas — o bônus escala a cada 5 minutos.
 
-* **Azar:** O personagem enfrenta perigos, resultando em perda de vida.
-* **Batalha:** Combates com adversários rendem recompensas, mas custam vida.
-* **Sorte:** Descobre tesouros, sem perigos associados.
+---
 
-Cada resultado influencia a história que é narrada, adicionando variedade e profundidade à experiência de jogo.
+## Resultados
 
-#### **Recompensas e Benefícios**
+Ao final da aventura, um dado decide o resultado:
 
-As recompensas são proporcionais ao tempo em Aventura, com prêmios ou percas crescendo com a duração. O tempo de aventura resetado diariamente incentiva o uso frequente desse modo.
+| Resultado | Chance | Recompensa | Dano |
+|---|---|---|---|
+| **Azar** | 30% | Nenhuma | Perde vida |
+| **Sorte** | 40% | Moedas | Nenhum |
+| **Batalha** | 30% | Moedas + XP | Perde vida |
 
-#### **Estratégias Recomendadas**
+As recompensas e perdas de vida escalam com o **nível do personagem** e o **tempo de aventura**.
 
-Ideal para períodos de inatividade, como durante o trabalho ou sono, maximizando o tempo de não-jogo para ganhos significativos no progresso do personagem.
+---
+
+## Caravana (Cancelamento)
+
+É possível cancelar uma aventura em andamento chamando a Caravana.
+
+- Limite de **3 resgates por dia**.
+- Cada resgate custa moedas, com valor crescente a cada uso no dia.
+
+---
+
+## Narrativas
+
+Cada resultado vem acompanhado de uma história diferente. São várias narrativas possíveis para cada tipo de resultado, escolhidas aleatoriamente.

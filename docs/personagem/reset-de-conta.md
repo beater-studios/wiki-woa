@@ -1,31 +1,52 @@
 ---
-description: Informações sobre o reset de conta e suas mudanças e recompensas.
+description: Requisitos, mudanças e recompensas ao resetar o personagem.
 ---
 
 # Reset de Conta
 
-**Requisitos:**
+Ao atingir o nível máximo, você pode resetar o personagem para recomeçar do nível 1 com bônus acumulativos.
 
-* Estar no nível máximo (atualmente 255);
-* Não estar em uma aventura.
+---
 
+## Requisitos
 
+- Estar no **nível máximo** (255).
+- Não estar em uma aventura (status livre).
 
-**Mudanças após reset:**
+---
 
-* **Histórico de Duelos**: todo histórico de duelos e a contagem de vitórias/derrotas contra outros jogadores é excluído (o histórico contra monstros é mantido);
-* **Configurações do Personagem**:
-  * Localização inicial: "1º Andar - Cidade dos Inícios";
-  * HP: Redefinido para o mínimo (atualmente 300);
-  * Nível: definido como 1;
-  * Experiência: definido como 0;
-  * Atributos: Todos redefinidos para 1. Moedas gastas em upgrades são devolvidas pela metade.
-* **Moedas e Bônus: j**ogador retorna com suas moedas acumuladas e recebe um bônus de +10.000 moedas;
-* **Bônus de Aventuras Diárias**: adicionados +5 minutos extras;
-* **Itens e Equipamentos**: equipamentos são desequipados, e permanecem no inventário com todos itens que você possui;
-* **wCoin e Bônus**: wCoin atual mantido e adicionado um bônus de +50;
-* **Skills e Pontos**: todas as habilidades retornam para o nível 0. Pontos utilizados são resetados, exceto os ganhos em eventos, com um bônus adicional de +3 pontos.
+## O Que Reseta
 
+| Item | Novo valor |
+|---|---|
+| Nível | 1 |
+| Experiência | 0 |
+| Força, Inteligência, Vigor | 1 cada |
+| HP | 300 |
+| Localização | 1º Andar — Cidade dos Inícios |
+| Vitórias/Derrotas em duelos | 0 (histórico de duelos apagado) |
+| Habilidades | Nível 0 (todas resetadas) |
+| Equipamentos | Desequipados (permanecem no inventário) |
 
+---
 
-> Atualmente, o sistema de reset está em fase de desenvolvimento e estudo contínuo. Estamos trabalhando para entender qual a melhor forma de implementá-lo, garantindo que ele seja justo e enriquecedor para a experiência dos jogadores. Como tal, o sistema está sujeito a ajustes e melhorias com base no feedback da comunidade e nas análises internas. Agradecemos a compreensão e estamos abertos a sugestões para aprimorar ainda mais este recurso.
+## O Que é Preservado
+
+- Inventário completo (itens e equipamentos).
+- Bestiário (progresso de descoberta de monstros).
+- Progresso de quests.
+- Moedas e wCoin (com bônus, veja abaixo).
+
+---
+
+## Bônus do Reset
+
+| Bônus | Valor |
+|---|---|
+| Moedas | +10.000 |
+| wCoin | +50 |
+| Pontos de habilidade | +3 extras |
+| Tempo de aventura diário | +5 minutos permanentes |
+| Reembolso de atributos | 50% das moedas gastas em treinos devolvidas |
+
+Os pontos de habilidade obtidos fora do sistema de níveis (como em eventos) são preservados no cálculo.

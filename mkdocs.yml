@@ -47,6 +47,7 @@ nav:
       - Modo Aventura: exploracao/modo-aventura.md
       - Respawn dos Chefes: exploracao/respawn-dos-chefes.md
   - Personagem:
+    - Atributos: personagem/atributos.md
     - Itens de Regeneração: personagem/itens-de-regeneracao.md
     - Reset de Conta: personagem/reset-de-conta.md
   - Economia:
