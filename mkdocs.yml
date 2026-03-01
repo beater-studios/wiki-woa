@@ -37,6 +37,10 @@ nav:
   - Início: index.md
   - Mecânicas:
     - Combate:
+      - Sistema de Batalha: combate/sistema-de-batalha.md
+      - Chefes de Andar: combate/chefes-de-andar.md
+      - Bestiário: combate/bestario.md
+      - Drop de Itens: combate/drop-de-itens.md
       - Natureza dos Monstros: combate/natureza-dos-monstros.md
       - Desarme: combate/desarme.md
     - Exploração:

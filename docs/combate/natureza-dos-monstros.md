@@ -31,5 +31,3 @@ Os monstros **agressivos** são os mais perigosos, pois sempre realizam um ataqu
 A natureza selvagem e agressiva dos monstros não só aumenta a dificuldade do combate, mas também influencia diretamente no sistema de desarme. Quanto maior a agressividade, maiores são as chances de desarme durante o combate.
 
 Para obter detalhes aprofundados sobre como a natureza afeta o desarme, visite nossa página dedicada ao sistema de desarme: [Sistema de Desarme](https://wiki.swordartonline.com.br/combate/desarme).
-
-\
