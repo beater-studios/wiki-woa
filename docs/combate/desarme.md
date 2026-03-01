@@ -1,50 +1,72 @@
 ---
 description: >-
-  Explore os mecanismos de desarme do jogo: aprenda os pré-requisitos, fatores
-  que influenciam a chance de desarme e como isso afeta suas batalhas contra
-  inimigos e chefes.
+  Como funciona o sistema de desarme: quando acontece, o que influencia
+  a chance e como seus atributos ajudam a se proteger.
 ---
 
 # Desarme
 
-**Pré-requisitos para Desarme**
+Durante uma batalha, o inimigo pode desarmar uma das suas armas equipadas. A arma desarmada fica inutilizada pelo resto daquela batalha. Se todas as suas armas forem desarmadas, você é forçado a lutar com **Soco**.
 
-O desarme só é possível quando o inimigo causa dano maior que zero ao jogador.
+---
 
+## Quando Acontece
 
+O desarme só pode ocorrer quando **duas condições** são atendidas:
 
-**Cálculo da Taxa de Desarme**
+- O inimigo causa dano maior que zero no turno.
+- Você tem pelo menos uma arma equipada.
 
-A chance de desarme é calculada com base em uma escala de até 100 pontos, onde vários fatores contribuem para o peso total do desarme:
+Se ambas as armas estiverem equipadas, a arma desarmada é escolhida aleatoriamente.
 
-* **Vida do Inimigo:** Quanto mais cheia a barra de vida do inimigo, maior é o aumento na chance de desarme, adicionando até +7 ao peso total.
-* **Natureza do Inimigo:**
-  * Selvagem: +12 ao peso de desarme.
-  * Agressivo: +22,5 ao peso de desarme.
-  * Passivo: +1 ao peso de desarme.&#x20;
-  * Bosses: Independente da natureza, +40 ao peso de desarme.
-* **Nível do Jogador:**
-  * Pode reduzir até metade do peso total de desarme calculado até o momento.
-* **Atributos do Jogador:**
-  * Vigor do Escudo e Vigor do Jogador: Quanto mais próximos do nível máximo, podem subtrair até -25 do peso de desarme.
-  * Inteligência: Quanto mais próxima do nível máximo, pode subtrair até -5 do peso de desarme.
-* **Vitalidade do Jogador:**
-  * A quantidade de vida atual do jogador pode reduzir até -10 do peso total de desarme.
+---
 
+## O Que Aumenta a Chance
 
+### Natureza do Inimigo
 
-**Execução do Desarme**
+A natureza é o fator mais significativo:
 
-Um dado de 100 lados é lançado. Se o resultado for menor que o peso total de desarme calculado, o desarme é bem-sucedido.
+| Natureza | Peso |
+|---|---|
+| Passivo | +1 |
+| Selvagem | +12 |
+| Agressivo | +22,5 |
+| Chefe (qualquer natureza) | +40 |
 
-* Em caso de desarme bem-sucedido durante um ataque, o jogador perde a arma utilizada.
-* Se a ação do seu round for ter usado um item consumível, a arma a ser desarmada é escolhida aleatoriamente.
+Consulte [Natureza dos Monstros](natureza-dos-monstros.md) para detalhes sobre cada tipo.
 
+### Vida do Inimigo
 
+Quanto mais cheia a barra de vida do inimigo, maior o peso — até **+7** quando está com vida cheia.
 
-**Exceções**
+---
 
-A chance de desarme é zero para:
+## O Que Reduz a Chance
 
-* inimigos normais com menos de 25% de vida restante.
-* Bosses com menos de 15% de vida restante.
+### Nível
+
+Quanto maior o seu nível, menor a chance. No nível máximo, o peso acumulado é reduzido pela **metade**.
+
+### Atributos
+
+Cada atributo reduz a chance proporcionalmente ao quão próximo está do máximo:
+
+| Atributo | Redução máxima |
+|---|---|
+| Força | -10 |
+| Inteligência | -10 |
+| Vigor | -10 |
+
+### Vida Atual
+
+Quanto mais cheia a sua barra de vida, menor a chance — até **-10** quando está com vida cheia.
+
+---
+
+## Exceções
+
+A chance de desarme é **zero** quando o inimigo está com pouca vida:
+
+- **Monstros comuns**: abaixo de 25% de vida.
+- **Chefes de Andar**: abaixo de 15% de vida.
