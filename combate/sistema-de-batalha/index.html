@@ -1,0 +1,2154 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Entenda como funciona o sistema de batalha do World of Aincrad: turnos, ações disponíveis, dano, crítico, recompensas e as diferenças entre monstros comuns e Chefes de Andar.">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.swordartonline.com.br/combate/sistema-de-batalha/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../chefes-de-andar/">
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>Sistema de Batalha - Wiki — World of Aincrad</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sistema-de-batalha" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+
+    <!-- Logo -->
+    <a href="../.."
+       title="Wiki — World of Aincrad"
+       class="md-header__button md-logo"
+       aria-label="Wiki — World of Aincrad"
+       data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+
+    <!-- Botão menu (mobile) -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Título do site -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">Wiki — World of Aincrad</span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sistema de Batalha
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Links customizados -->
+    <nav class="md-header__custom-nav">
+      <a href="https://swordartonline.com.br" class="header-extra-link" target="_blank" rel="noopener">JOGUE AGORA</a>
+      <a href="https://discord.swordartonline.com.br" class="header-extra-link header-extra-link--discord" target="_blank" rel="noopener">DISCORD</a>
+    </nav>
+
+    <!-- Busca -->
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Repositório -->
+    
+
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Wiki — World of Aincrad" class="md-nav__button md-logo" aria-label="Wiki — World of Aincrad" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Wiki — World of Aincrad
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Mecânicas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Mecânicas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Combate
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Combate
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Sistema de Batalha
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Sistema de Batalha
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-de-um-turno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estrutura de um Turno
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acoes-disponiveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações Disponíveis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ações Disponíveis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ataque-fisico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ataque Físico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#habilidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Habilidades
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-de-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uso de Item
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quem-ataca-primeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quem Ataca Primeiro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vitoria-e-derrota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vitória e Derrota
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recompensas-por-vitoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensas por Vitória
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chefes-de-andar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chefes de Andar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chefes de Andar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recompensas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chefes-de-andar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chefes de Andar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bestario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bestiário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drop-de-itens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drop de Itens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natureza-dos-monstros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natureza dos Monstros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../desarme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Desarme
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Exploração
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Exploração
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exploracao/modo-aventura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modo Aventura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exploracao/respawn-dos-chefes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Respawn dos Chefes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Personagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Personagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personagem/atributos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atributos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personagem/itens-de-regeneracao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Itens de Regeneração
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personagem/reset-de-conta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reset de Conta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Economia
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Economia
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../economia/wcoin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    wCoin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Informações
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Informações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../informacoes/manutencoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manutenções Programadas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Changelog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            2024
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../changelog/2024/20-04-or-1.5.1/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Versão 1.5.1
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_1_1" id="__nav_6_1_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Versão 1.5.1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2024/20-04-or-1.5.1/1.5.2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.5.2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2024/08-04-or-1.5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08/04 | 1.5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2024/30-03-or-1.4.2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    30/03 | 1.4.2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../changelog/2024/24-02-or-1.4/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Versão 1.4
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_1_4" id="__nav_6_1_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Versão 1.4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2024/24-02-or-1.4/1.4.1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.4.1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2024/06-01-or-1.3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06/01 | 1.3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            2023
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../changelog/2023/28-12-or-1.2/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    28/12 | 1.2
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_2_1" id="__nav_6_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            28/12 | 1.2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/28-12-or-1.2/celebracao-da-guilda-dos-aventureiros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Celebração da Guilda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/27-12-or-1.1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    27/12 | 1.1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/26-12-or-1.0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    26/12 | 1.0
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/10-12-or-0.9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10/12 | 0.9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/13-11-or-0.8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13/11 | 0.8
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../changelog/2023/12-11-or-0.7/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    12/11 | 0.7
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_2_6" id="__nav_6_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            12/11 | 0.7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/12-11-or-0.7/hostilidade-dos-monstros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Natureza dos Monstros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/09-11-or-0.6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09/11 | 0.6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/29-10-or-0.5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    29/10 | 0.5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/28-10-or-0.4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    28/10 | 0.4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/26-10-or-0.3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    26/10 | 0.3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/25-10-or-0.2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    25/10 | 0.2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/24-10-or-0.1.3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    24/10 | 0.1.3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/22-10-or-0.1.2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    22/10 | 0.1.2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/21-10-or-0.1.1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    21/10 | 0.1.1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2023/20-10-or-0.1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    20/10 | 0.1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-de-um-turno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estrutura de um Turno
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acoes-disponiveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações Disponíveis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ações Disponíveis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ataque-fisico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ataque Físico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#habilidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Habilidades
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-de-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uso de Item
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quem-ataca-primeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quem Ataca Primeiro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vitoria-e-derrota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vitória e Derrota
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recompensas-por-vitoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensas por Vitória
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chefes-de-andar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chefes de Andar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chefes de Andar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recompensas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="sistema-de-batalha">Sistema de Batalha</h1>
+<p>As batalhas do World of Aincrad são <strong>por turnos</strong>. A cada rodada você escolhe uma ação — atacar, usar uma habilidade ou consumir um item — e o resultado é processado imediatamente. O combate continua até que você ou o inimigo chegue a zero de vida.</p>
+<hr />
+<h2 id="estrutura-de-um-turno">Estrutura de um Turno</h2>
+<ol>
+<li>O jogo exibe o número do turno atual e aguarda sua ação.</li>
+<li>Você escolhe entre <strong>Ataque Físico</strong>, <strong>Habilidade</strong> ou <strong>Item</strong>.</li>
+<li>O resultado (dano causado, dano recebido, status) é apresentado.</li>
+<li>Se nenhuma das partes for derrotada, o próximo turno começa.</li>
+</ol>
+<blockquote>
+<p>A partir do 2º turno há um intervalo mínimo de <strong>1 segundo</strong> entre ações para evitar envios duplicados acidentais.</p>
+</blockquote>
+<hr />
+<h2 id="acoes-disponiveis">Ações Disponíveis</h2>
+<h3 id="ataque-fisico">Ataque Físico</h3>
+<p>Você pode atacar com a <strong>arma principal</strong>, a <strong>arma secundária</strong> ou com os <strong>punhos</strong> (sem arma equipada).</p>
+<p><strong>Chance de acerto do jogador</strong></p>
+<table>
+<thead>
+<tr>
+<th>Arma</th>
+<th>Precisão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arma principal</td>
+<td>Atributo <strong>Precisão</strong> da própria arma</td>
+</tr>
+<tr>
+<td>Arma secundária</td>
+<td>Sempre 80%</td>
+</tr>
+<tr>
+<td>Punhos (sem arma)</td>
+<td>Sempre 80%</td>
+</tr>
+<tr>
+<td>vs Chefe de Andar</td>
+<td>Sempre acerta — independente da arma</td>
+</tr>
+</tbody>
+</table>
+<p>Cada arma tem seu próprio valor de Precisão visível na descrição do item. Quando o ataque erra, nenhum dano é causado e o inimigo ainda pode contra-atacar naquele turno.</p>
+<p><strong>Chance de acerto do inimigo</strong></p>
+<p>Monstros comuns têm precisão base de 80%, que aumenta com o atributo de Magia do inimigo, chegando a no máximo 90%. Chefes de Andar sempre acertam o jogador.</p>
+<p><strong>Dano</strong></p>
+<p>O dano de cada ataque é calculado dentro de uma faixa entre um valor mínimo e máximo, com base nos seus atributos de <strong>Ataque</strong> e <strong>Magia</strong>, além dos bônus de equipamentos. Há sempre um elemento aleatório dentro dessa faixa.</p>
+<p><strong>Golpe Crítico</strong></p>
+<p>Críticos causam aproximadamente <strong>50% mais dano</strong> no limite superior da faixa. A chance de crítico cresce conforme seus atributos de Ataque e Magia se aproximam do máximo para o seu nível.</p>
+<div class="admonition warning">
+<p class="admonition-title">Restrição de crítico</p>
+<p>Quando você ou o inimigo está com vida muito baixa (abaixo de ~10–20% do total), críticos ficam <strong>desabilitados</strong> para aquela parte. Aventureiros e monstros na iminência da derrota não conseguem desferir golpes precisos.</p>
+</div>
+<hr />
+<h3 id="habilidades">Habilidades</h3>
+<p>Habilidades de combate oferecem ataques especiais com regras próprias:</p>
+<ul>
+<li>Cada habilidade tem um <strong>cooldown em turnos</strong> que diminui conforme você evolui o nível da habilidade e aumenta seu atributo de Magia.</li>
+<li>O cooldown restante aparece ao lado do nome da habilidade — quando chegar a zero, ela pode ser usada.</li>
+<li>Algumas habilidades possuem mecânicas únicas, como ataques duplos ou precisão aumentada — os efeitos específicos variam por classe.</li>
+</ul>
+<hr />
+<h3 id="uso-de-item">Uso de Item</h3>
+<p>Itens de cura podem ser usados durante a batalha. Ao usar um item:</p>
+<ol>
+<li>A cura é aplicada imediatamente na sua vida.</li>
+<li>O inimigo ainda executa seu ataque naquele turno.</li>
+<li>Se o ataque do inimigo te atingir, a verificação de <a href="../desarme/">Desarme</a> ocorre normalmente.</li>
+</ol>
+<p>A quantidade de vida recuperada depende do valor base do item, do seu atributo de <strong>Vigor</strong> e do nível de habilidades passivas que afetem a regeneração — quanto maior a habilidade, maior a cura. Consulte <a href="../../personagem/itens-de-regeneracao/">Itens de Regeneração</a> para detalhes.</p>
+<hr />
+<h2 id="quem-ataca-primeiro">Quem Ataca Primeiro</h2>
+<p>A ordem do primeiro ataque é determinada pela <strong>Natureza</strong> do monstro. Consulte <a href="../natureza-dos-monstros/">Natureza dos Monstros</a> para entender as três naturezas (<strong>Passivo</strong>, <strong>Selvagem</strong> e <strong>Agressivo</strong>) e como cada uma afeta o início da batalha.</p>
+<hr />
+<h2 id="vitoria-e-derrota">Vitória e Derrota</h2>
+<p><strong>Vitória</strong> — A vida do inimigo chega a zero e você ainda está vivo.</p>
+<p><strong>Derrota</strong> — Sua vida chega a zero. Mesmo que ambos morram no mesmo turno, o resultado é sempre derrota para o jogador.</p>
+<hr />
+<h2 id="recompensas-por-vitoria">Recompensas por Vitória</h2>
+<p>Ao vencer um monstro comum, você recebe:</p>
+<table>
+<thead>
+<tr>
+<th>Recompensa</th>
+<th>Detalhes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>XP</strong></td>
+<td>Baseado na experiência base do monstro, podendo ser aumentado por bônus ativos</td>
+</tr>
+<tr>
+<td><strong>Moedas</strong></td>
+<td>Valor aleatório dentro da faixa do monstro, podendo ser aumentado por bônus ativos</td>
+</tr>
+<tr>
+<td><strong>Itens</strong></td>
+<td>Chance de drop com base nos itens configurados para aquele monstro</td>
+</tr>
+</tbody>
+</table>
+<p>Ao <strong>perder</strong>, você perde <strong>1% da sua experiência atual</strong>. Nenhuma moeda é concedida.</p>
+<hr />
+<h2 id="chefes-de-andar">Chefes de Andar</h2>
+<p>Chefes de Andar seguem regras diferentes das batalhas comuns:</p>
+<ul>
+<li>A <strong>vida persiste</strong> entre batalhas — vários jogadores atacam o mesmo chefe ao longo do tempo até ele ser derrotado.</li>
+<li>O ataque do chefe <strong>sempre acerta</strong> o jogador, sem chance de erro.</li>
+<li><strong>Múltiplos jogadores</strong> podem batalhar simultaneamente contra o mesmo chefe.</li>
+<li>O limite para <strong>golpes críticos</strong> é mais restrito: abaixo de ~10% de vida (contra ~20% nos monstros comuns).</li>
+</ul>
+<h3 id="recompensas">Recompensas</h3>
+<p>As recompensas variam conforme a posição ao fim da batalha. Consulte <a href="../chefes-de-andar/">Chefes de Andar</a> para a tabela completa de XP, Moedas e Discovery por posição (Top 2 em Dano, Último golpe e demais sobreviventes).</p>
+<p>Em caso de <strong>derrota</strong>, não há perda de XP — pelo contrário, você recebe XP proporcional ao dano causado durante a batalha.</p>
+<div class="admonition info">
+<p class="admonition-title">Chefe derrotado durante sua ação</p>
+<p>Se outro jogador derrotar o Chefe enquanto sua ação está sendo processada, nenhuma derrota é registrada para você. Você recebe XP e Moedas proporcionais ao dano causado até aquele momento, conforme sua posição no ranking de dano.</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.indexes", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
