@@ -1,7 +1,11 @@
-# Início
+---
+description: >-
+  Wiki oficial do World of Aincrad — documentação completa das mecânicas,
+  sistemas e funcionalidades do jogo.
+---
 
-Aqui, você pode acompanhar as mudanças oficiais e melhorias introduzidas em cada versão.
+# Wiki — World of Aincrad
 
+Bem-vindo à wiki oficial do **World of Aincrad**! Aqui você encontra a documentação completa das mecânicas e sistemas do jogo.
 
-
-Há também outras mudanças internas aplicadas que não podemos divulgar para os jogadores, mas visam sempre trazer a melhor experiência e qualidade de jogo!
+Navegue pelas seções no menu ao lado para explorar cada tema.

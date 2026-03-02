@@ -1,5 +1,5 @@
-# Início
+# Wiki — World of Aincrad
 
-Aqui, você pode acompanhar as mudanças oficiais e melhorias introduzidas em cada versão.
+Documentação oficial do [World of Aincrad](https://wiki.swordartonline.com.br/).
 
-Há também outras mudanças internas aplicadas que não podemos divulgar para os jogadores, mas visam sempre trazer a melhor experiência e qualidade de jogo!
+Construída com [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
