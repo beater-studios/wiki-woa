@@ -66,6 +66,16 @@ nav:
     - Manutenções Programadas: informacoes/manutencoes.md
     - Configurações: informacoes/configuracoes.md
   - Changelog:
+    - 2026:
+      - 25/02 | 1.6.1: changelog/2026/25-02-or-1.6.1.md
+      - 23/02 | 1.6.0: changelog/2026/23-02-or-1.6.0.md
+    - 2025:
+      - 27/04 | 1.5.10: changelog/2025/27-04-or-1.5.10.md
+      - 23/04 | 1.5.9: changelog/2025/23-04-or-1.5.9.md
+      - 23/04 | 1.5.8: changelog/2025/23-04-or-1.5.8.md
+      - 23/04 | 1.5.6: changelog/2025/23-04-or-1.5.6.md
+      - 15/04 | 1.5.5: changelog/2025/15-04-or-1.5.5.md
+      - 15/04 | 1.5.4: changelog/2025/15-04-or-1.5.4.md
     - 2024:
       - Versão 1.5.1:
         - 20/04 | 1.5.1: changelog/2024/20-04-or-1.5.1/README.md
