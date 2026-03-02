@@ -44,16 +44,27 @@ nav:
       - Natureza dos Monstros: combate/natureza-dos-monstros.md
       - Desarme: combate/desarme.md
     - Exploração:
+      - Andares: exploracao/andares.md
       - Modo Aventura: exploracao/modo-aventura.md
       - Respawn dos Chefes: exploracao/respawn-dos-chefes.md
   - Personagem:
     - Atributos: personagem/atributos.md
+    - Habilidades: personagem/skills.md
+    - XP e Nível: personagem/xp-e-nivel.md
+    - Missões: personagem/missoes.md
     - Itens de Regeneração: personagem/itens-de-regeneracao.md
     - Reset de Conta: personagem/reset-de-conta.md
   - Economia:
+    - Equipamentos: economia/equipamentos.md
+    - Mercado: economia/mercado.md
     - wCoin: economia/wcoin.md
+    - Cardinal Code: economia/cardinal-code.md
+  - Social:
+    - Ranking: social/ranking.md
+    - Duelos: social/duelos.md
   - Informações:
     - Manutenções Programadas: informacoes/manutencoes.md
+    - Configurações: informacoes/configuracoes.md
   - Changelog:
     - 2024:
       - Versão 1.5.1:
