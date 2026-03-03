@@ -59,3 +59,35 @@
     display: none;
   }
 }
+
+/* Links mobile no drawer (JOGUE AGORA / DISCORD) */
+.md-nav__mobile-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0.5rem 0.6rem;
+}
+
+.md-nav__mobile-links {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0 0.75rem;
+}
+
+.md-nav__mobile-link {
+  display: block;
+  padding: 0.6rem 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  transition: color 0.15s;
+}
+
+.md-nav__mobile-link:hover {
+  color: #fff;
+}
+
+.md-nav__mobile-link--discord:hover {
+  color: #7289da;
+}

@@ -55,6 +55,11 @@
       {% include "partials/search.html" %}
     {% endif %}
 
+    <!-- RSS Feed -->
+    <a href="/feed_rss_created.xml" class="md-header__button md-icon" title="RSS Feed" target="_blank" rel="noopener">
+      {% include ".icons/fontawesome/solid/rss.svg" %}
+    </a>
+
     <!-- Repositório -->
     {% if config.repo_url %}
       <div class="md-header__source">

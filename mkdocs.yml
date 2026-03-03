@@ -25,6 +25,15 @@ extra_css:
 plugins:
   - search:
       lang: pt
+  - rss:
+      match_path: "changelog/.*"
+      date_from_meta:
+        as_creation: date
+      use_git: true
+      enabled: true
+      abstract_chars_count: 160
+      feed_ttl: 1440
+      image: https://wiki.swordartonline.com.br/assets/logo.png
 
 markdown_extensions:
   - admonition
