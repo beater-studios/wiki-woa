@@ -21,17 +21,17 @@
       {% include "partials/source.html" %}
     </div>
   {% endif %}
+  <!-- Links mobile: JOGUE AGORA e DISCORD -->
+  <div class="md-nav__mobile-links">
+    <a href="https://swordartonline.com.br" class="md-nav__mobile-link" target="_blank" rel="noopener">JOGUE AGORA</a>
+    <a href="https://discord.swordartonline.com.br" class="md-nav__mobile-link md-nav__mobile-link--discord" target="_blank" rel="noopener">DISCORD</a>
+  </div>
+  <!-- <hr class="md-nav__mobile-divider"> -->
+
   <ul class="md-nav__list" data-md-scrollfix>
     {% for nav_item in nav %}
       {% set path = "__nav_" ~ loop.index %}
       {{ item.render(nav_item, path, 1) }}
     {% endfor %}
   </ul>
-
-  <!-- Links mobile: JOGUE AGORA e DISCORD -->
-  <hr class="md-nav__mobile-divider">
-  <div class="md-nav__mobile-links">
-    <a href="https://swordartonline.com.br" class="md-nav__mobile-link" target="_blank" rel="noopener">JOGUE AGORA</a>
-    <a href="https://discord.swordartonline.com.br" class="md-nav__mobile-link md-nav__mobile-link--discord" target="_blank" rel="noopener">DISCORD</a>
-  </div>
 </nav>

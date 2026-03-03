@@ -22,9 +22,40 @@ theme:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  - assets/easter-egg.js
+
 plugins:
   - search:
       lang: pt
+  - redirects:
+      redirect_maps:
+        # Paths antigos sem categoria
+        'reset-de-conta.md': 'personagem/reset-de-conta.md'
+        'progressao/reset-de-conta.md': 'personagem/reset-de-conta.md'
+        'combate/hostilidade-dos-monstros.md': 'combate/natureza-dos-monstros.md'
+        'geral/respawn-dos-chefes-de-andar.md': 'exploracao/respawn-dos-chefes.md'
+        'geral/wcoin-moeda-especial.md': 'economia/wcoin.md'
+        'geral/modo-aventura.md': 'exploracao/modo-aventura.md'
+        # Paths antigos com prefixo /v/ (seção "eventos" → "changelog")
+        'v/eventos/2023/09-11-or-0.6.md': 'changelog/2023/09-11-or-0.6.md'
+        'v/eventos/2023/10-12-or-0.9.md': 'changelog/2023/10-12-or-0.9.md'
+        'v/eventos/2023/12-11-or-0.7.md': 'changelog/2023/12-11-or-0.7/README.md'
+        'v/eventos/2023/13-11-or-0.8.md': 'changelog/2023/13-11-or-0.8.md'
+        'v/eventos/2023/20-10-or-0.1.md': 'changelog/2023/20-10-or-0.1.md'
+        'v/eventos/2023/21-10-or-0.1.1.md': 'changelog/2023/21-10-or-0.1.1.md'
+        'v/eventos/2023/25-10-or-0.2.md': 'changelog/2023/25-10-or-0.2.md'
+        'v/eventos/2023/26-10-or-0.3.md': 'changelog/2023/26-10-or-0.3.md'
+        'v/eventos/2023/26-12-or-1.0.md': 'changelog/2023/26-12-or-1.0.md'
+        'v/eventos/2023/27-12-or-1.1.md': 'changelog/2023/27-12-or-1.1.md'
+        'v/eventos/2023/28-10-or-0.4.md': 'changelog/2023/28-10-or-0.4.md'
+        'v/eventos/2023/28-12-or-1.2.md': 'changelog/2023/28-12-or-1.2/README.md'
+        'v/eventos/2023/29-10-or-0.5.md': 'changelog/2023/29-10-or-0.5.md'
+        'v/eventos/2024/06-01-or-1.3.md': 'changelog/2024/06-01-or-1.3.md'
+        'v/eventos/2024/24-02-or-1.4.md': 'changelog/2024/24-02-or-1.4/README.md'
+        'v/eventos/combate/desarme.md': 'combate/desarme.md'
+        'v/eventos/combate/hostilidade-dos-monstros.md': 'combate/natureza-dos-monstros.md'
+        'v/eventos/caca-dos-chefes/conclusao-da-missao-e-recompensas.md': 'changelog/2024/08-04-or-1.5.md'
   - rss:
       match_path: "changelog/.*"
       date_from_meta:
