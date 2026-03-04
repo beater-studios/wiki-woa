@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*?fallback=true
+
+Sitemap: https://wiki.swordartonline.com.br/sitemap.xml
