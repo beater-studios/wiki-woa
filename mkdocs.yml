@@ -83,6 +83,7 @@ nav:
       - Drop de Itens: combate/drop-de-itens.md
       - Natureza dos Monstros: combate/natureza-dos-monstros.md
       - Desarme: combate/desarme.md
+      - Perda de XP: combate/perda-de-xp.md
     - Exploração:
       - Andares: exploracao/andares.md
       - Modo Aventura: exploracao/modo-aventura.md
@@ -94,6 +95,8 @@ nav:
     - Missões: personagem/missoes.md
     - Itens de Regeneração: personagem/itens-de-regeneracao.md
     - Reset de Conta: personagem/reset-de-conta.md
+    - Correio: personagem/correio.md
+    - Amigos: personagem/amigos.md
   - Economia:
     - Equipamentos: economia/equipamentos.md
     - Mercado: economia/mercado.md
@@ -102,11 +105,14 @@ nav:
   - Social:
     - Ranking: social/ranking.md
     - Duelos: social/duelos.md
+  - Sistema:
+    - Notificações Globais: sistema/notificacoes-globais.md
   - Informações:
     - Manutenções Programadas: informacoes/manutencoes.md
     - Configurações: informacoes/configuracoes.md
   - Changelog:
     - 2026:
+      - 19/03 | 1.8.0: changelog/2026/19-03-or-1.8.0.md
       - 03/03 | 1.7.3: changelog/2026/03-03-or-1.7.3.md
       - 03/03 | 1.7.2: changelog/2026/03-03-or-1.7.2.md
       - 02/03 | 1.7.0: changelog/2026/02-03-or-1.7.0.md
