@@ -49,7 +49,16 @@ O dano de cada ataque é calculado dentro de uma faixa entre um valor mínimo e 
 
 **Golpe Crítico**
 
-Críticos causam aproximadamente **50% mais dano** no limite superior da faixa. A chance de crítico cresce conforme seus atributos de Ataque e Magia se aproximam do máximo para o seu nível.
+Críticos causam aproximadamente **50% mais dano** no limite superior da faixa. A chance de crítico depende de:
+
+| Fator | Contribuição máxima |
+|---|---|
+| Ataque (proporcional ao máximo) | Até +15 pontos |
+| Magia (proporcional ao máximo) | Até +10 pontos |
+| Bônus de Magia | Até +15 pontos |
+| Vida perdida (penalidade) | Até -15 pontos |
+
+A chance final é comparada com um valor aleatório de 0 a 100. Quanto mais próximos seus atributos do máximo e mais cheia sua vida, maior a probabilidade de crítico.
 
 !!! warning "Restrição de crítico"
     Quando você ou o inimigo está com vida muito baixa (abaixo de ~10–20% do total), críticos ficam **desabilitados** para aquela parte. Aventureiros e monstros na iminência da derrota não conseguem desferir golpes precisos.
@@ -88,7 +97,7 @@ A ordem do primeiro ataque é determinada pela **Natureza** do monstro. Consulte
 
 **Vitória** — A vida do inimigo chega a zero e você ainda está vivo.
 
-**Derrota** — Sua vida chega a zero. Mesmo que ambos morram no mesmo turno, o resultado é sempre derrota para o jogador.
+**Derrota** — Sua vida chega a zero. Mesmo que ambos morram no mesmo turno, o resultado é sempre derrota para o jogador. Ao ser derrotado por um monstro, você sofre uma [penalidade de XP](perda-de-xp.md) proporcional ao seu nível e desempenho na luta.
 
 ---
 
@@ -119,7 +128,7 @@ Chefes de Andar seguem regras diferentes das batalhas comuns:
 
 As recompensas variam conforme a posição ao fim da batalha. Consulte [Chefes de Andar](chefes-de-andar.md) para a tabela completa de XP, Moedas e Discovery por posição (Top 2 em Dano, Último golpe e demais sobreviventes).
 
-Em caso de **derrota**, não há perda de XP — pelo contrário, você recebe XP proporcional ao dano causado durante a batalha.
+Em caso de **derrota**, não há perda de XP — pelo contrário, você recebe XP proporcional ao dano causado durante a batalha, limitado a **75% da XP base** do chefe. Veja mais detalhes em [Perda de XP](perda-de-xp.md).
 
 !!! info "Chefe derrotado durante sua ação"
     Se outro jogador derrotar o Chefe enquanto sua ação está sendo processada, nenhuma derrota é registrada para você. Você recebe XP e Moedas proporcionais ao dano causado até aquele momento, conforme sua posição no ranking de dano.

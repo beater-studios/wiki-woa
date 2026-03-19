@@ -20,7 +20,11 @@ Exibe os **50 melhores** jogadores em cada categoria:
 | Ouro | Total de moedas |
 | Resets | Quantidade de resets de conta |
 
-No ranking de personagem, você pode clicar no nome de outro jogador para iniciar um duelo.
+Em todos os rankings gerais:
+
+- **Clique no nome** de outro jogador para iniciar um duelo diretamente.
+- Jogadores **online** são indicados com uma bolinha verde ao lado do nome.
+- Jogadores que são seus **amigos** aparecem com o nome em azul. Consulte [Amigos](../personagem/amigos.md) para detalhes.
 
 ---
 
