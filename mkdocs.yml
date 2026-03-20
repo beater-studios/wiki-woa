@@ -112,6 +112,7 @@ nav:
     - Configurações: informacoes/configuracoes.md
   - Changelog:
     - 2026:
+      - 19/03 | 1.8.1: changelog/2026/19-03-or-1.8.1.md
       - 19/03 | 1.8.0: changelog/2026/19-03-or-1.8.0.md
       - 03/03 | 1.7.3: changelog/2026/03-03-or-1.7.3.md
       - 03/03 | 1.7.2: changelog/2026/03-03-or-1.7.2.md
