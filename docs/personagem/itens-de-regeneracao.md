@@ -17,14 +17,14 @@ Itens de regeneração recuperam vida do seu personagem. Podem ser usados de dua
 
 O valor final de cura segue três etapas:
 
-1. **Valor base** do item (ex: Poção HP Grande = 750).
+1. **Valor base** do item (ex: Poção HP Grande = 925).
 2. **Bônus de Vigor**: aumenta o valor base proporcionalmente ao seu Vigor. Com Vigor 50, o bônus é +50%.
-3. **Bônus de Regeneração Aprimorada**: a habilidade passiva adiciona **+5% por nível** sobre o valor já bonificado pelo Vigor.
+3. **Bônus de Vitalidade Aprimorada**: a habilidade passiva adiciona **+1% por nível** sobre o valor já bonificado pelo Vigor. No nível máximo (100), a cura é dobrada.
 
-> Exemplo: Poção HP Grande (750) com Vigor 50 e Regeneração Aprimorada nível 10:
+> Exemplo: Poção HP Grande (925) com Vigor 100 e Vitalidade Aprimorada nível 50:
 >
-> - Após Vigor: 750 + 375 = 1.125
-> - Após habilidade (+50%): 1.125 + 563 = **1.688 HP**
+> - Após Vigor: 925 + 925 = 1.850
+> - Após habilidade (+50%): 1.850 + 925 = **2.775 HP**
 
 A cura nunca ultrapassa a vida máxima do personagem.
 

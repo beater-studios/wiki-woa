@@ -45,11 +45,11 @@ Monstros comuns têm precisão base de 80%, que aumenta com o atributo de Magia 
 
 **Dano**
 
-O dano de cada ataque é calculado dentro de uma faixa entre um valor mínimo e máximo, com base nos seus atributos de **Ataque** e **Magia**, além dos bônus de equipamentos. Há sempre um elemento aleatório dentro dessa faixa.
+O dano de cada ataque é calculado com base nos seus atributos de **Ataque** e **Magia**, além dos bônus de equipamentos. O valor final varia **±10%** em torno de um dano base, tornando o resultado previsível mas não idêntico a cada turno. Monstros comuns causam dano com multiplicador de 1.5×, enquanto Chefes de Andar causam 2.5× — tornando bosses significativamente mais perigosos.
 
 **Golpe Crítico**
 
-Críticos causam aproximadamente **50% mais dano** no limite superior da faixa. A chance de crítico depende de:
+Críticos causam aproximadamente **40% mais dano** com uma variação muito pequena (±5%). A chance de crítico depende de:
 
 | Fator | Contribuição máxima |
 |---|---|
@@ -111,7 +111,7 @@ Ao vencer um monstro comum, você recebe:
 | **Moedas** | Valor aleatório dentro da faixa do monstro, podendo ser aumentado por bônus ativos |
 | **Itens** | Chance de drop com base nos itens configurados para aquele monstro |
 
-Ao **perder**, você perde **1% da sua experiência atual**. Nenhuma moeda é concedida.
+Ao **perder**, você perde uma porcentagem da sua experiência atual que escala com seu nível — de **~1%** no nível 1 até **~3%** no nível máximo. A penalidade é reduzida proporcionalmente ao dano que você causou ao monstro. Consulte [Perda de XP](perda-de-xp.md) para detalhes completos.
 
 ---
 

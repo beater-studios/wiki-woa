@@ -8,7 +8,7 @@ description: >-
 
 Chefes de Andar são inimigos de mundo compartilhado. Ao contrário dos monstros comuns — que reiniciam a cada batalha individual — a vida do chefe **persiste entre todas as batalhas** até que algum jogador o derrote. Qualquer aventureiro no mesmo andar pode atacá-lo a qualquer momento, inclusive simultaneamente.
 
-Cada Chefe de Andar possui uma **faixa de nível** configurada: um nível mínimo e, em alguns casos, um nível máximo para poder desafiá-lo. Tentativas fora dessa faixa são bloqueadas antes do início da batalha.
+Cada Chefe de Andar possui uma **faixa de nível** configurada: um nível mínimo e um nível máximo para poder desafiá-lo. Tentativas fora dessa faixa são bloqueadas antes do início da batalha. Chefes de Andares iniciais possuem um nível máximo que impede jogadores muito fortes de farmá-los, enquanto bosses endgame são acessíveis a todos.
 
 Para as regras de combate em si (precisão, dano, crítico, recompensas de derrota), consulte [Sistema de Batalha](sistema-de-batalha.md).
 

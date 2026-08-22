@@ -30,18 +30,15 @@ Duelos são combates entre dois jogadores. Você pode desafiar outro jogador pel
 
 ## Combate
 
-### Iniciativa
+### Turnos simultâneos
 
-Quem ataca primeiro é determinado pelo maior valor entre **Força** e **Inteligência** de cada jogador, com um fator aleatório. Após o primeiro ataque, os turnos se alternam.
-
-### Turnos
-
-O duelo dura no máximo **10 rodadas** (cada jogador ataca uma vez por rodada). A vida nunca chega a zero — o mínimo é 1 HP.
+O duelo é por **turnos simultâneos**: a cada rodada, os **dois jogadores atacam ao mesmo tempo** — não existe mais vantagem de "atacar primeiro". O duelo dura no máximo **20 rodadas** e a vida nunca chega a zero (mínimo 1 HP).
 
 ### Resultado
 
-- Se um jogador começa o turno com **10% de vida ou menos**, o oponente vence imediatamente.
-- Se o duelo chegar ao fim das rodadas: vence quem causou **mais dano total**.
+- Se um jogador cai a **10% de vida ou menos**, o oponente vence.
+- Se os **dois caem na mesma rodada**, vence quem causou **mais dano total** (desempate).
+- Se chegar ao fim das rodadas sem nocaute: vence quem causou **mais dano total**.
 
 ---
 
@@ -85,12 +82,13 @@ O roubo de moedas **só acontece quando o vencedor não é mais forte**. Isso ev
 
 ## Balanceamento de Combate
 
-A fórmula de dano em duelos foi ajustada para tornar os combates mais decisivos:
+A fórmula de dano em duelos foi **unificada com a de combate contra monstros** — seus atributos valem o mesmo em PvP e PvE, então o resultado é previsível e recompensa quem tem os melhores stats.
 
-* **Defesa a 50%** — a absorção de dano opera com metade da eficácia comparado a batalhas contra monstros. Isso reduz a frequência de rounds onde o dano é totalmente absorvido.
-* **Dano mínimo por nível** — o dano mínimo por round escala com o nível do atacante (`nível / 10`). Um jogador lv255 sempre causa no mínimo 25 de dano por round, mesmo quando a absorção supera o ataque.
+* **Dano previsível** — o dano varia apenas **±25%** em torno de um valor base (margem maior que o PvE para permitir viradas), em vez da variância enorme de antes que decidia duelos na sorte.
+* **Turnos simultâneos** — os dois atacam ao mesmo tempo, sem vantagem de quem golpeia primeiro.
+* **Dano mínimo por nível** — o dano mínimo por rodada escala com o nível do atacante (`nível / 10`). Um jogador lv255 sempre causa no mínimo 25, mesmo quando a defesa do oponente supera o ataque.
 
-Essas mudanças fazem com que duelos entre jogadores de nível alto terminem de forma mais rápida e agressiva, em vez de se arrastarem por 20 turnos com dano mínimo.
+Resultado: duelos decididos por **estratégia e atributos**, de forma justa, em vez de sorte ou vantagem de iniciativa.
 
 ---
 

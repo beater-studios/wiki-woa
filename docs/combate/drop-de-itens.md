@@ -38,10 +38,10 @@ Na prática:
 
 - **A taxa é a porcentagem**: um item com taxa 30 tem 30% de chance de dropar.
 - Um sorteio baixo tende a dropar vários itens de uma vez.
-- **Itens com taxa 100 sempre dropam.**
+- **Itens com taxa 100** têm a maior chance possível, mas com a taxa global de 90% (abaixo) dropam ~90% das vezes, não sempre.
 - Múltiplos itens podem ser obtidos na mesma batalha.
 
-> Bônus de jogador como WCoin Bônus não afetam taxas de drop — incidem apenas sobre XP e Moedas. As taxas podem ser ajustadas globalmente pelo servidor durante eventos especiais.
+> A taxa de drop global do servidor é de **90%**, ou seja, todas as chances individuais de cada item são multiplicadas por 0.9. Bônus de jogador como WCoin Bônus não afetam taxas de drop — incidem apenas sobre XP e Moedas. As taxas podem ser ajustadas globalmente pelo servidor durante eventos especiais.
 
 ---
 

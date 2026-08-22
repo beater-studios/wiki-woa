@@ -20,14 +20,19 @@ Ao clicar no ícone, um resumo das últimas mensagens aparece. Clique em uma men
 
 ## Caixa de Entrada
 
-A caixa de entrada organiza suas mensagens por tipo:
+A caixa de entrada organiza suas mensagens por tipo através de **abas** no topo:
 
-| Filtro | O que mostra |
+| Aba | O que mostra |
 |---|---|
 | **Todas** | Todas as mensagens recebidas |
 | **Jogadores** | Mensagens enviadas por outros jogadores |
 | **Sistema** | Comunicados e broadcasts do sistema |
 | **Amizade** | Pedidos de amizade pendentes |
+
+Ao lado das abas, há dois botões dedicados:
+
+- **Ícone de avião de papel** (verde) — abre a lista de mensagens enviadas
+- **Ícone de lápis** (azul) — abre o formulário de composição de nova mensagem
 
 As mensagens são paginadas em **10 por página** com navegação entre páginas.
 
@@ -35,7 +40,7 @@ As mensagens são paginadas em **10 por página** com navegação entre páginas
 
 ## Enviando Mensagens
 
-Para enviar uma mensagem, clique no ícone de **compor** no correio. Preencha:
+Para enviar uma mensagem, clique no **ícone de lápis** no cabeçalho das abas. Preencha:
 
 - **Para** — nick do jogador destinatário
 - **Assunto** — título da mensagem
@@ -85,13 +90,15 @@ Pedidos de amizade chegam pelo correio como mensagens especiais. Ao abrir um ped
 - **Aceitar** — adiciona o jogador à sua lista de amigos
 - **Recusar** — remove o pedido
 
+Se o remetente cancelar o pedido antes de você responder, os botões **Aceitar** e **Recusar** desaparecem — apenas **Excluir** fica disponível. A mensagem permanece no correio como histórico, mas não pode mais ser usada para criar a amizade. Se o mesmo jogador enviar um novo pedido depois, ele aparece como um novo correio independente.
+
 Consulte [Amigos](amigos.md) para mais detalhes sobre o sistema de amizade.
 
 ---
 
 ## Mensagens Enviadas
 
-Clique no ícone de **enviadas** para ver as mensagens que você mandou. Você pode excluir mensagens enviadas sem afetar a cópia do destinatário.
+Clique no **ícone de avião de papel** no cabeçalho das abas para ver as mensagens que você mandou. Você pode excluir mensagens enviadas sem afetar a cópia do destinatário.
 
 ---
 

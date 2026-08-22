@@ -27,14 +27,22 @@ Habilidades ativas são usadas como ação durante seu turno de batalha, no luga
 O cooldown é medido em **turnos** e depende de:
 
 - **Cooldown base** da habilidade.
-- **Nível da skill**: a cada 10 níveis, o cooldown aumenta em 1 turno.
+- **Nível da skill**: a cada 10 níveis, modifica o cooldown.
 - **Inteligência**: quanto maior, menor o cooldown.
 
-O cooldown nunca fica abaixo de um mínimo definido por cada habilidade.
+O cooldown nunca fica abaixo de um mínimo definido por cada habilidade. Na prática, jogadores com Inteligência moderada ou alta terão o cooldown sempre no valor mínimo.
 
 ### Dano
 
-O dano segue o mesmo cálculo do ataque físico, com um **bônus percentual** adicional baseado no nível da skill. Quanto maior o nível, maior o dano extra.
+O dano segue o mesmo cálculo do ataque físico, com um **bônus percentual** adicional baseado no nível da skill. No nível máximo (100), o bônus é de **+100%** sobre o dano final.
+
+### Efeitos ao longo do tempo
+
+Nem toda habilidade ativa causa dano. Algumas aplicam um **efeito que dura vários turnos** — por exemplo, uma regeneração que cura Energia Vital a cada turno. Nesses casos, o **turno de ativação é gasto na habilidade** (você não ataca), e o efeito age sozinho nos turnos seguintes enquanto você continua lutando normalmente.
+
+- A cura por turno aplicada por esses efeitos **conta antes do golpe do inimigo**, então pode te manter vivo em um turno que te derrotaria.
+- O efeito vale **apenas durante a batalha**: começa zerado a cada combate e não é levado para a próxima luta. O cooldown da habilidade, porém, continua entre batalhas.
+- Os efeitos ativos aparecem **ao lado da sua barra de vida** durante a batalha, cada um com o número de turnos restantes e uma descrição.
 
 ---
 

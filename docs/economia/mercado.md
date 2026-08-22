@@ -32,7 +32,7 @@ Você pode vender equipamentos e itens consumíveis do seu inventário.
 
 ## Negociação
 
-A habilidade passiva **Negociação** melhora os preços do mercado proporcionalmente ao nível da skill:
+A habilidade passiva **Comerciante** melhora os preços do mercado proporcionalmente ao nível da skill:
 
 - **Compra** — reduz o preço de compra.
 - **Venda** — aumenta o valor de venda.

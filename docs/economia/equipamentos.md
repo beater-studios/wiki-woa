@@ -33,7 +33,7 @@ Cada equipamento pode fornecer bônus nos seguintes atributos:
 - **Ataque** — aumenta o dano físico.
 - **Magia** — aumenta o poder mágico.
 - **Resistência** — aumenta a defesa.
-- **Precisão** — chance de acerto (apenas armas).
+- **Precisão** — chance de acerto (apenas armas). Atualmente todas as armas possuem 100% de precisão.
 
 Os bônus de todos os equipamentos são somados e exibidos no perfil com o sinal de **+**.
 
@@ -57,6 +57,6 @@ Os bônus de todos os equipamentos são somados e exibidos no perfil com o sinal
 
 ## Venda
 
-Equipamentos podem ser vendidos por **metade do preço de compra**. A habilidade passiva de **Negociação** aumenta o valor de venda proporcionalmente ao nível da skill.
+Equipamentos podem ser vendidos por **metade do preço de compra**. A habilidade passiva **Comerciante** aumenta o valor de venda proporcionalmente ao nível da skill.
 
 Se você vender todas as unidades de um equipamento que está equipado, ele é automaticamente desequipado.

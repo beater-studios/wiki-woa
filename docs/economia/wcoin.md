@@ -1,11 +1,11 @@
 ---
 description: >-
-  O que é wCoin, como obtê-la e o que pode comprar na loja.
+  O que é wCoin, como obtê-la e como funciona o Bazar wCoin.
 ---
 
 # wCoin
 
-wCoin é a moeda especial do jogo. Não pode ser comprada com dinheiro real — é obtida apenas jogando.
+wCoin é a moeda premium interna do World of Aincrad. **Não pode ser comprada com dinheiro real** — é obtida apenas jogando. O WoA não é pay-to-win.
 
 ---
 
@@ -14,18 +14,44 @@ wCoin é a moeda especial do jogo. Não pode ser comprada com dinheiro real — 
 | Forma | Quantidade |
 |---|---|
 | Criar uma conta | 10 wCoin |
-| Resetar o personagem (nível máximo) | 50 wCoin |
-| Códigos Cardinal (eventos e promoções) | Varia |
+| Resetar o personagem (nível máximo) | 50 → 45 → 40 → ... → 10 wCoin (diminui por reset) |
+| Códigos Cardinal (eventos, bug reports, bônus de GM) | Varia |
+
+Jogador ativo em 1 ano acumula em torno de 350 wCoin somando resets e eventos.
 
 ---
 
-## Loja de wCoin
+## Bazar wCoin
 
-A wCoin pode ser gasta na loja de wCoin, acessível pelo menu do jogo. Os itens disponíveis oferecem benefícios temporários ou recursos adicionais, mas são completamente opcionais.
+O **Bazar wCoin** (antes "Loja wCoin") é acessível pelo menu. Tem duas abas:
+
+- **Itens** — tudo que está à venda
+- **Histórico** — suas compras anteriores, com status (ativo/expirado/instantâneo) e data de expiração
+
+### O que você encontra
+
+O Bazar organiza o que está à venda em algumas categorias:
+
+- **Linha Miragem (VIP)** — assinaturas temporárias com progressão: quanto mais alto o tier, maior a duração e os bônus (desconto em duelos e teleporte, bônus de XP e moedas em batalha e minutos extras de aventura por dia).
+- **Pacotes de moedas** — convertem wCoin em moedas do jogo na hora; pacotes maiores rendem melhor custo-benefício.
+- **Buffs temporários** — potencializam XP, moedas ou taxa de drop por um período (de horas a um dia).
+- **Conveniências** — utilidades pontuais, como restaurar a vida completa.
+
+Os itens, preços e durações exatos ficam na **própria tela do Bazar**, que é a fonte sempre atualizada — a oferta pode mudar em eventos e ajustes de balanceamento.
+
+---
+
+## Regras Importantes
+
+- **Buffs de XP, moedas e drop não empilham.** Ao comprar um buff enquanto outro do mesmo tipo já está ativo, o novo substitui o anterior.
+- **Buffs de drop têm limite diário:** apenas **1 compra por dia** (qualquer tipo de buff de drop).
+- **Bônus de XP e moedas** são aplicados em **todas as fontes de recompensa**: batalhas (MOB e Boss), Aventura, Missões, e Duelos. Exceção: resgate de código Cardinal **não** aplica buffs (é recompensa administrativa fixa).
+- **Roubo de moedas em duelos** não é afetado por buffs — o valor é espelhado (o que o vencedor ganha, o perdedor perde).
 
 ---
 
 ## Notas
 
-- wCoin **não** pode ser obtida por compra com dinheiro real.
-- Os itens da loja não determinam o sucesso no jogo.
+- wCoin **não** pode ser obtida com dinheiro real.
+- Os itens da loja não determinam o sucesso no jogo — são complementos opcionais.
+- Ao renovar um VIP antes de expirar, a nova compra substitui a duração anterior.

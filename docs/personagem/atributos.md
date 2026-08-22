@@ -48,4 +48,4 @@ Define a resistência do personagem — vida, absorção e cura.
 
 Os atributos são treinados no perfil do personagem, gastando moedas. O custo aumenta progressivamente a cada nível — níveis altos custam significativamente mais.
 
-Ao [resetar a conta](reset-de-conta.md), 50% das moedas gastas em treinos são devolvidas.
+Ao [resetar a conta](reset-de-conta.md), **até 50%** das moedas gastas em treinos são devolvidas — a porcentagem começa em 50% no primeiro reset e diminui a cada reset (mínimo de 15%).

@@ -24,11 +24,11 @@ Ao final da aventura, um dado decide o resultado:
 
 | Resultado | Chance | Recompensa | Dano |
 |---|---|---|---|
-| **Azar** | 30% | Nenhuma | Perde vida |
-| **Sorte** | 40% | Moedas | Nenhum |
-| **Batalha** | 30% | Moedas + XP | Perde vida |
+| **Azar** | 30% | XP mínimo | Pode perder vida |
+| **Sorte** | 40% | Moedas + XP | Nenhum |
+| **Batalha** | 30% | Moedas + XP (maior) | Perde vida |
 
-As recompensas e perdas de vida escalam com o **nível do personagem** e o **tempo de aventura**.
+As recompensas e perdas de vida escalam com o **nível do personagem** e o **tempo de aventura**. No mid-game, uma aventura de 30 minutos rende aproximadamente **25-30%** do que uma sessão ativa equivalente — é um complemento ao gameplay ativo, não um substituto.
 
 ---
 
@@ -44,3 +44,12 @@ As recompensas e perdas de vida escalam com o **nível do personagem** e o **tem
 ## Narrativas
 
 Cada resultado vem acompanhado de uma história diferente. São várias narrativas possíveis para cada tipo de resultado, escolhidas aleatoriamente.
+
+---
+
+## Resultado Pendente ao Reconectar
+
+Se você **sair do jogo** (fechar o navegador, encerrar sessão) enquanto está em uma aventura, ela continua correndo no servidor normalmente. Ao voltar:
+
+- Se a aventura **ainda está em andamento**, o jogo continua do jeito que você deixou
+- Se a aventura **já terminou** enquanto você estava offline, o jogo abre automaticamente a tela de Aventura ao entrar, exibindo o resultado.
